@@ -83,3 +83,18 @@ a {
   display: flex;
   flex-direction: column;
 }
+
+/* for desktop style  */
+@media (min-width: 768px) {
+  .heading-profile h2 {
+    font-size: 3rem;
+    color: var(--primary);
+  }
+}
+
+/* for mobile style  */
+@media (max-width: 768px) {
+  .heading-profile h2 {
+    font-size: 1.5rem;
+  }
+}
